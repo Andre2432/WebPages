@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ITEC 225
+       Andre Dorsey
+       class time 4pm - 5:15pm
+       caleb bradberry
+       Assignment 3
+       CSS Assignment Template
+  -->
+  <head>
+      <meta charset="utf-8" />
+      <title>Olympics Teams</title>
+      <!-- created a internal style sheet -->
+      <style type="text/css">
+
+      /* table caption styles    */
+      caption{
+        background-color: rgb(135, 206, 235);
+        color: darkblue;
+        border-style: solid;
+        border-color: black;
+        padding: 5px;
+
+      }
+        /* styles for all div's */
+        div {
+          width: 50%;
+          margin-left: auto;
+          margin-right: auto;
+          border: 3px solid;
+          border-width: 2px;
+          font-size: 14px;
+          font-weight: bold;
+
+        }
+
+        /* styles for first country div */
+        #c1{
+          background-color: #ccffcc;
+          color: forestgreen;
+          font-size: 8px;
+          font-weight: bold;
+          font-family: helvetica, arial,sans-serif;;
+
+        }
+        /* styles for second country div */
+        #c2{
+          background-color: beige;
+          font: black;
+          font-size: 8px;
+          font-weight: bold;
+          font-family: "Times New Roman",times,serif;
+        }
+        /* styles for third country div */
+        #c3{
+          background-color: lightslategray;
+          font: darkblue;
+          font-size: 8px;
+          font-weight: bold;
+          font-family: serif;
+        }
+        /* table cell formats */
+
+
+        /* table styles width,margin-left,margin-right, so table is centered in div */
+        table{
+          width: 60%;
+          margin-left: auto;
+          margin-right: auto;
+          border-style: solid;
+          border-width: 2px;
+
+        }
+        th, td{
+          font-size: 12px;
+          padding: 0.5em;
+          background-color: #C0C0C0;
+
+        }
+
+
+      </style>
+
+
+
+  </head>
+  <body>
+     <div id="top" >
+
+        <table>
+		      <caption>Olympic Team Information</caption>
+          <tr>
+            <td>
+
+              <!-- first cell, has links to three paragraphs -->
+
+              <h3 id="top">Links to Countries</h3>
+              <p><b><a href="#c1" >Canda</a></b></p>
+              <p><b><a href="#c2">United States of America</a></b></p>
+              <p><b><a href="#c3">Australia</a></b></p>
+
+           </td>
+
+      <!-- second cell has form. i couldnt figure out how to save when they submit and add a counter to add up the total -->
+           <td>
+             <br><capti0n> Pick your favorite Winter Olympic Team </caption></br>
+             <br><input type="radio" name="Country" 	value="Canada" />Canada
+             <br><input type="radio" name="Country" 	value="United States" />United States
+             <br><input type="radio" name="Country" 	value="Australia" />Australia
+             <br><input type="submit" value="Submit">
+
+           </td>
+         </tr>
+       </table>
+     </div>
+
+     <!-- canada information as with all I tried to align the picture left and have the text right justified kinda like the picture -->
+     <br /><br />
+     <div id="c1">
+         <h2>Canada</h2>
+          <p>
+            <img src="Canada.jpg" alt="Canada.jpg" style="width=169px; height:107px">
+            Canada has won six medals in athletics, this is the country’s best since 9 won at Los Angeles 1932.
+
+              <br><a href="http://olympic.ca//">More Info About Canada Olympic team</a></br>
+          </p>
+
+          <p>
+             <!-- link to top -->
+             <a href="#top">Go to top</a>
+          </p>
+      </div>
+
+      <!-- USA information as with all I tried to align the picture left and have the text right justified kinda like the picture -->
+      <br /><br />
+      <div id="c2">
+         <h2>United States of America</h2>
+          <p>
+            <img src="usflag.jpg" alt="usflag.jpg" style="width=286px height:182px">
+              The 2016 U.S. Olympic Team is comprised of 558 athletes (264 men, 294 women).
+              <br><a href="http://www.teamusa.org/road-to-rio-2016/team-usa/athletes">More Info about United States Olympic team</a></br>
+          </p>
+
+          <p>
+            <a href="#top">Go to top</a>
+             <!-- link to top -->
+          </p>
+      </div>
+
+      <!-- australia information as with all I tried to align the picture left and have the text right justified kinda like the picture -->
+      <br /><br />
+      <div id="c3">
+         <h2>Australia</h2>
+          <p>
+            <img src="australia.jpg" alt="australia.jpg" style="width:173px;height:112px;">
+            422 athletes across 26 sports represented Australia at the Rio 2016 Olympic Games. The Team is made up of 271 rookies (64.83%) and the youngest athlete is footballer Ellie Carpenter at 16. Mary Hanna at 61 is the eldest and off to her 5th Game
+              <br><a href="http://rio2016.olympics.com.au/team">More Info about Australia Olympic team</a></br>
+          </p>
+          <p>
+            <a href="#top">Go to top</a>
+             <!-- link to top -->
+          </p>
+      </div>
+
+
+  </body>
+</html>
